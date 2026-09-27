@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="视觉与运营设计作品集，展示活动视觉、商业插画与 UI 界面设计，以及金融、智能家居和企业服务项目经验。" />
+    <title>Folio | Visual &amp; Campaign Design</title>
+    <link rel="preload" as="image" href="assets/walrus/hero.avif" type="image/avif" media="(min-width: 768px)" />
+    <link rel="preload" as="image" href="assets/walrus/hero-mobile-extended.webp" type="image/webp" media="(max-width: 767px)" />
+    <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="styles.css?v=20260927-about-fluid" />
+    <script src="projects.js?v=20260927-jyquants" defer></script>
+    <script src="featured.js?v=20260927-jyquants-selected" defer></script>
+    <script src="project-cards.js?v=20260927-category-tags" defer></script>
+    <script src="script.js?v=20260927-mobile-refinement" defer></script>
+  </head>
+  <body class="home-page">
+    <a class="skip-link" href="#main">跳转到正文</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Folio 首页">folio</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>菜单</button>
+      <nav id="site-nav" class="site-nav" aria-label="主导航" data-nav>
+        <a href="#work" lang="en">About</a>
+        <a href="#selected-work" lang="en">Selected Work</a>
+        <a href="#projects" lang="en">Experience</a>
+        <a href="#contact" lang="en">Contact</a>
+        <a class="home-mobile-work" href="work.html">全部作品</a>
+      </nav>
+      <a class="header-contact star-border-container custom-class" href="work.html" style="--star-color: white; --star-speed: 5s;">
+        <span class="border-gradient-bottom" aria-hidden="true"></span>
+        <span class="border-gradient-top" aria-hidden="true"></span>
+        <span class="inner-content">
+          <span>全部作品</span>
+        </span>
+      </a>
+    </header>
+
+    <main id="main">
+      <div class="hero-world">
+        <div class="hero-world-visual" data-image-frame>
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/walrus/hero-mobile-extended.webp" width="1092" height="1440" />
+            <img src="assets/walrus/hero.avif" width="1100" height="868" alt="A turquoise walrus character wearing a blue beanie and reflective visor" fetchpriority="high" />
+          </picture>
+          <p class="media-fallback" aria-hidden="true">Hero artwork unavailable</p>
+        </div>
+        <section id="top" class="hero">
+          <div class="hero-content reveal" data-reveal>
+            <h1 lang="en"><span>Visual design.</span><span>Campaigns &amp; UI.</span></h1>
+            <p class="hero-intro"><span>视觉 / 运营设计师</span><span>活动视觉、商业插画与 UI 设计</span></p>
+            <ul class="hero-tags" aria-label="设计方向">
+              <li>运营视觉</li>
+              <li>商业插画</li>
+              <li>UI 设计</li>
+              <li>平面设计</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="work" class="work-bridge">
+          <div class="work-glass-card reveal" data-reveal>
+            <div>
+              <p class="work-label" lang="en">About Me</p>
+              <h2 class="home-cn-title" lang="en"><span>From concept</span><span>to creation.</span></h2>
+            </div>
+            <div class="work-glass-copy">
+              <p>专注视觉与运营设计，具备金融、智能家居及企业服务项目经验。主要参与活动视觉、功能插画与 UI 界面设计，注重信息表达、视觉一致性与实际应用。</p>
+            </div>
+            <dl id="services" class="work-profile-facts" aria-label="个人信息">
+              <div><dd>9+</dd><dt lang="en">Work Experience</dt></div>
+              <div><dd class="work-profile-school">广西师范大学漓江学院</dd><dt lang="en">Education</dt></div>
+              <div><dd>视觉 · 插画 · UI</dd><dt lang="en">Specialties</dt></div>
+            </dl>
+          </div>
+        </section>
+      </div>
+
+      <section id="about" class="partners" aria-labelledby="partners-title" data-partners>
+        <div class="partners-aurora" aria-hidden="true"></div>
+
+        <div class="partners-copy reveal" data-reveal>
+          <p lang="en">My Skills</p>
+          <h2 id="partners-title" lang="en"><span>Everyday</span><span>Work Tools</span></h2>
+        </div>
+
+        <div class="partners-art">
+          <figure class="partners-mascot" data-image-frame>
+            <img src="assets/walrus/salute.avif" width="1540" height="1848" alt="The turquoise walrus character saluting behind the collaborator logos" loading="lazy" />
+            <p class="media-fallback" aria-hidden="true">Mascot artwork unavailable</p>
+          </figure>
+        </div>
+
+        <div class="partner-rail" role="region" aria-label="个人技能：设计软件与 AI 工具。可拖动或使用左右方向键浏览。" tabindex="0" data-partner-rail>
+          <div class="partner-flow" data-partner-flow>
+            <div class="partner-track" data-partner-track>
+              <div class="partner-logo-group" role="list">
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-photoshop" src="assets/tool-logos/photoshop-custom.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Photoshop</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-illustrator" src="assets/tool-logos/illustrator-custom.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Illustrator</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-chatgpt" src="assets/tool-logos/chatgpt.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>ChatGPT</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-figma" src="assets/tool-logos/figma.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Figma</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-sketch" src="assets/tool-logos/sketch.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Sketch</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-xd" src="assets/tool-logos/xd.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>XD</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-jimeng" src="assets/tool-logos/jimeng.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>即梦AI</span></div>
+                <div class="partner-logo-card" role="listitem"><img class="tool-logo tool-logo-nanobanana" src="assets/tool-logos/nanobanana.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Nano Banana</span></div>
+              </div>
+              <div class="partner-logo-group" aria-hidden="true">
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-photoshop" src="assets/tool-logos/photoshop-custom.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Photoshop</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-illustrator" src="assets/tool-logos/illustrator-custom.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Illustrator</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-chatgpt" src="assets/tool-logos/chatgpt.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>ChatGPT</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-figma" src="assets/tool-logos/figma.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Figma</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-sketch" src="assets/tool-logos/sketch.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Sketch</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-xd" src="assets/tool-logos/xd.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>XD</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-jimeng" src="assets/tool-logos/jimeng.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>即梦AI</span></div>
+                <div class="partner-logo-card"><img class="tool-logo tool-logo-nanobanana" src="assets/tool-logos/nanobanana.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Nano Banana</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="selected-work" class="home-selected" aria-labelledby="selected-work-title">
+        <div class="selected-shell">
+          <header class="home-selected-heading">
+            <h2 id="selected-work-title" lang="en">Selected Work</h2>
+            <p class="selected-intro">围绕金融服务与家庭能源场景，结合运营视觉、界面设计与数据表达，让信息更清晰、操作更直观。</p>
+          </header>
+          <div id="selected-gallery" class="selected-grid" role="group" aria-label="精选作品，可横向滚动浏览">
+          </div>
+          <footer class="selected-footer">
+            <div class="selected-controls" hidden>
+              <button type="button" data-selected-prev aria-label="查看上一组精选作品" aria-controls="selected-gallery"><svg class="selected-arrow" viewBox="256 256 512 512" width="32" height="32" aria-hidden="true" focusable="false"><path d="M597.333333 512l-170.666666 170.666667V341.333333l170.666666 170.666667z" fill="currentColor" /></svg></button>
+              <span class="selected-range" aria-live="polite" aria-atomic="true"></span>
+              <button type="button" data-selected-next aria-label="查看下一组精选作品" aria-controls="selected-gallery"><svg class="selected-arrow" viewBox="256 256 512 512" width="32" height="32" aria-hidden="true" focusable="false"><path d="M597.333333 512l-170.666666 170.666667V341.333333l170.666666 170.666667z" fill="currentColor" /></svg></button>
+            </div>
+            <a class="selected-more" href="work.html">查看更多 <img class="selected-more-icon" src="assets/tool-logos/view-more-white.svg" alt="" aria-hidden="true" width="14" height="14"></a>
+          </footer>
+        </div>
+      </section>
+
+      <section id="projects" class="experience-timeline" aria-labelledby="experience-title">
+        <div class="experience-layout">
+          <header class="experience-heading">
+            <h2 id="experience-title" lang="en">Work Experience</h2>
+            <p lang="en">My Journey</p>
+          </header>
+          <div class="experience-player" data-experience-player>
+            <div class="experience-viewport" id="experience-viewport" tabindex="0" role="region" aria-label="工作经历，可上下滚动浏览" data-experience-viewport>
+          <ol class="experience-flow" aria-label="按时间从新到旧排列的工作经历">
+            <li class="experience-entry">
+              <article aria-labelledby="experience-identity">
+                <h3 id="experience-identity" lang="zh-CN">深圳诚迈创通科技有限公司</h3>
+                <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-identity-content">查看更多 <span aria-hidden="true">＋</span></button>
+                <div class="experience-content" id="experience-identity-content">
+                  <time class="experience-date" datetime="2024-02">2024.02 至今</time>
+                <p class="experience-role">设计职责：UI 界面 / 运营视觉</p>
+                <ul class="experience-details">
+                  <li><strong>产品界面：</strong>与交互设计师协作，负责 TCL App 迭代及设备控制页面的视觉设计，围绕功能层级、信息布局与控件状态细化方案，保持移动端与设备端的视觉一致性。</li>
+                  <li><strong>设备场景：</strong>参与耳机、商用空调、海外冰箱等产品的控制界面设计，覆盖 10 寸、7 寸、3.5 寸操作屏，结合不同屏幕尺寸梳理内容呈现与操作重点。</li>
+                  <li><strong>运营视觉：</strong>完成企业内部宣传海报，将宣传内容转化为清晰的视觉层级，通过版式、字体与色彩突出主题和关键信息，兼顾画面表现与阅读效率。</li>
+                </ul>
+                              </div>
+              </article>
+            </li>
+            <li class="experience-entry">
+              <article aria-labelledby="experience-motion">
+                <h3 id="experience-motion" lang="zh-CN">博彦科技股份有限公司</h3>
+                <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-motion-content">查看更多 <span aria-hidden="true">＋</span></button>
+                <div class="experience-content" id="experience-motion-content">
+                  <time class="experience-date" datetime="2021-02">2021.02 至 2023.12</time>
+                <p class="experience-role">设计职责：金融 UI / 活动视觉 / 插画</p>
+                <ul class="experience-details">
+                  <li><strong>运营与插画：</strong>独立完成功能页插画、活动视觉与休市日历设计，结合金融业务与节日主题，通过构图、色彩和图形突出活动权益与关键信息。</li>
+                  <li><strong>产品界面：</strong>负责广发易淘金国际版 App 迭代及开户系统的界面视觉，细化布局、图标与操作状态，梳理金融信息层级，让业务内容更清晰、页面更易读。</li>
+                  <li><strong>设计规范：</strong>协助建立 UI 规范，梳理字体、色彩、控件与状态样式，统一组件和页面表现，为后续迭代提供可复用的视觉参考。</li>
+                </ul>
+                              </div>
+              </article>
+            </li>
+            <li class="experience-entry">
+              <article aria-labelledby="experience-digital">
+                <h3 id="experience-digital" lang="zh-CN">深圳蓝凌软件股份有限公司</h3>
+                <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-digital-content">查看更多 <span aria-hidden="true">＋</span></button>
+                <div class="experience-content" id="experience-digital-content">
+                  <time class="experience-date" datetime="2017-07">2017.07 至 2020.12</time>
+                <p class="experience-role">设计职责：企业服务 UI / 宣传视觉</p>
+                <ul class="experience-details">
+                  <li><strong>界面设计：</strong>负责蓝凌专属钉钉的门户与小程序界面，将业务需求转化为页面布局与视觉方案，梳理功能入口和信息层级，让企业办公内容更清晰、操作重点更突出。</li>
+                  <li><strong>宣传视觉：</strong>完成宣传横幅与产品海报，围绕产品定位探索构图、字体与色彩搭配，突出产品特点和核心信息，保持宣传物料的视觉一致性。</li>
+                  <li><strong>组件协作：</strong>参与需求讨论与自定义组件的视觉完善，细化布局、样式和信息呈现，协调组件与整体页面的关系，支持设计方案整理与交付。</li>
+                </ul>
+                              </div>
+              </article>
+            </li>
+          </ol>
+            </div>
+            <div class="experience-controls" aria-label="工作经历播放控制">
+              <span class="experience-count" aria-hidden="true" data-experience-count>01</span>
+              <div class="experience-progress" aria-label="选择工作经历">
+                <button type="button" class="experience-segment" aria-label="查看深圳诚迈创通科技有限公司的经历" aria-controls="experience-viewport" aria-current="step" data-experience-step="0"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看博彦科技股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="1"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看深圳蓝凌软件股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="2"><span><i></i></span></button>
+              </div>
+              <span class="experience-total" aria-hidden="true">03</span>
+              <button type="button" class="experience-toggle" data-experience-toggle aria-label="暂停自动播放" aria-controls="experience-viewport"><span class="experience-playback-icon" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="process-interlude" aria-labelledby="process-title">
+        <div class="process-copy reveal" data-reveal>
+          <p lang="en">My Process</p>
+          <h2 id="process-title" class="home-cn-title" lang="en"><span>Design with</span><span>a clear direction.</span></h2>
+          <ol class="home-methods">
+            <li><svg class="method-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M8 9h5M8 12h3"/></svg><h3 lang="zh-CN">需求理解</h3><p>明确受众、业务目标与使用场景，梳理需要传达的重点。</p></li>
+            <li><svg class="method-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18h6M10 22h4M8.5 14.5a6 6 0 1 1 7 0c-.8.6-1.5 1.5-1.5 3.5h-4c0-2-.7-2.9-1.5-3.5Z"/></svg><h3 lang="zh-CN">方案探索</h3><p>通过参考、草图与方案对比，确定构图、色彩和图形语言。</p></li>
+            <li><svg class="method-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 16l9 5 9-5"/></svg><h3 lang="zh-CN">设计深化</h3><p>将核心视觉延展到页面、插画和运营物料，保持整体一致。</p></li>
+            <li><svg class="method-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M9 5V3h6v2M8 13l3 3 5-6"/></svg><h3 lang="zh-CN">交付落地</h3><p>整理规格、组件与素材，与协作方核对细节并跟进呈现。</p></li>
+          </ol>
+        </div>
+
+        <figure class="process-art" data-image-frame>
+          <img src="assets/walrus/token-ps.png" width="1341" height="1173" alt="The turquoise walrus character holding a tilted white PS card" loading="lazy" />
+          <p class="media-fallback" aria-hidden="true">Process artwork unavailable</p>
+        </figure>
+      </section>
+
+
+      <section id="contact" class="contact-directory" aria-labelledby="contact-directory-title">
+        <header class="contact-directory-heading">
+          <p lang="en">Let’s Work Together</p>
+          <h2 id="contact-directory-title" lang="en">Contact<span class="contact-title-break"><br></span> Me.</h2>
+        </header>
+        <dl class="contact-directory-details">
+          <div><dt lang="en">Phone</dt><dd><a href="tel:17776224416">17776224416</a></dd></div>
+          <div><dt lang="en">Email</dt><dd><a href="mailto:749861561@qq.com">749861561@qq.com</a></dd></div>
+          <div><dt lang="en">WeChat</dt><dd>_KeeLee_</dd></div>
+        </dl>
+      </section>
+
+
+
+    </main>
+
+    <!-- Keep the fixed control outside the footer stacking context. -->
+    <a class="end-back" href="#top">返回顶部 <img class="end-back-icon" src="assets/tool-logos/back-to-top.svg" alt="" aria-hidden="true" width="18" height="18"></a>
+
+    <footer class="end-scene" aria-label="作品集页脚">
+      <div class="end-artwork">
+        <p class="end-word" aria-hidden="true">CONTACT ME</p>
+        <figure class="end-mascot" data-image-frame>
+          <div class="end-mascot-reveal reveal" data-reveal>
+            <img class="end-mascot-head" src="assets/walrus/footer-wide.webp" width="1272" height="976" alt="A smiling turquoise walrus character appearing above the contact wordmark" loading="lazy" />
+            <img class="end-mascot-body" src="assets/walrus/footer-body-extended.png" width="1000" height="1573" alt="" aria-hidden="true" loading="lazy" />
+            <p class="media-fallback" aria-hidden="true">Mascot artwork unavailable</p>
+          </div>
+        </figure>
+      </div>
+    </footer>
+  </body>
+</html>

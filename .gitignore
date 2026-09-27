@@ -1,0 +1,20 @@
+# Local system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Dependencies and temporary outputs
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.zip
+tmp/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example

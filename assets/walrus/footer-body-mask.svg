@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1573" viewBox="0 0 1000 1573">
+  <defs><linearGradient id="join" x1="0" y1="580" x2="0" y2="640" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white"/></linearGradient></defs>
+  <path fill="url(#join)" d="M155 580H845C866 726 918 893 1000 1010V1573H0V1010C80 866 123 724 155 580Z"/>
+</svg>
