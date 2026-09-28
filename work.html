@@ -1,20 +1,51 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark">
-<meta name="description" content="浏览智能硬件、UI 界面、手绘插画与角色设计作品。">
-<title>全部作品 | Folio</title>
-<link rel="stylesheet" href="work.css?v=20260927-web-light"><script src="projects.js?v=20260927-web-light" defer></script><script src="project-cards.js?v=20260927-web-light" defer></script><script src="work.js?v=20260927-web-light" defer></script>
-</head>
-<body>
-<a class="skip-link" href="#work-index">跳转到作品</a>
-<header class="page-header page-shell"><a class="wordmark" href="index.html" aria-label="Folio 首页">folio</a><a class="back-home" href="index.html#selected-work">返回首页</a></header>
-<main class="page-shell" id="work-index">
-<h1 class="work-title">全部作品</h1>
-<div class="work-toolbar"><nav class="work-filters" aria-label="作品分类"></nav>
-<form class="work-search" role="search"><label class="sr-only" for="work-search">搜索作品</label><input id="work-search" type="search" placeholder="搜索作品名称或关键词" autocomplete="off"><button type="submit" aria-label="搜索">⌕</button></form></div>
-<p id="result-status" class="sr-only" role="status" aria-live="polite">正在加载作品</p>
-<section class="work-grid" aria-label="作品列表"></section>
-<div class="empty-state" hidden><h2>没有找到相关作品</h2><p>试试其他关键词，或查看全部作品。</p><button type="button" id="reset-filters">查看全部作品</button></div>
-<footer class="page-footer"><p>视觉设计、界面与生活中的创意。</p><a href="mailto:749861561@qq.com">联系我 ↗</a></footer>
-<noscript><p>请启用 JavaScript 查看作品列表。</p></noscript></main></body></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="浏览智能硬件、UI 界面与运营插画作品。" />
+    <title>全部作品 | Folio</title>
+    <link rel="stylesheet" href="work.css?v=20260928-release" />
+    <link rel="stylesheet" href="avatar.css?v=20260928-release" />
+    <script src="projects.js?v=20260928-release" defer></script>
+    <script src="project-cards.js?v=20260928-release" defer></script>
+    <script src="avatar.js?v=20260928-release" defer></script>
+    <script src="work.js?v=20260928-release" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#work-index">跳转到作品</a>
+    <header class="page-header page-shell">
+      <a class="wordmark wordmark--avatar" href="index.html" aria-label="刘柯乐 · 返回首页">
+        <span class="wordmark-portrait">
+          <img src="assets/identity/kele-flowers-portrait.jpg?v=20260928-lossless" width="810" height="1216" alt="刘柯乐抱着花束、手持相机的上半身头像" decoding="async" />
+        </span>
+        <span class="wordmark-greeting">HI！我是刘柯乐 <span class="wordmark-expression" aria-hidden="true">😆</span></span>
+      </a>
+      <a class="back-home" href="index.html#selected-work">返回首页</a>
+    </header>
+    <main class="page-shell" id="work-index">
+      <h1 class="work-title">全部作品</h1>
+      <div class="work-toolbar">
+        <nav class="work-filters" aria-label="作品分类"></nav>
+        <form class="work-search" role="search">
+          <label class="sr-only" for="work-search">搜索作品</label>
+          <input id="work-search" type="search" placeholder="搜索作品名称或关键词" autocomplete="off" />
+          <button type="submit" aria-label="搜索">⌕</button>
+        </form>
+      </div>
+      <p id="result-status" class="sr-only" role="status" aria-live="polite">正在加载作品</p>
+      <section class="work-grid" aria-label="作品列表"></section>
+      <div class="empty-state" hidden>
+        <h2>没有找到相关作品</h2>
+        <p>试试其他关键词，或查看全部作品。</p>
+        <button type="button" id="reset-filters">查看全部作品</button>
+      </div>
+      <footer class="page-footer">
+        <p>视觉设计、界面与生活中的创意。</p>
+        <a href="mailto:749861561@qq.com">联系我</a>
+      </footer>
+      <noscript><p>请启用 JavaScript 查看作品列表。</p></noscript>
+    </main>
+  </body>
+</html>

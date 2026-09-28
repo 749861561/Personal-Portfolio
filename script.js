@@ -29,6 +29,7 @@ if (menuButton && navigation) {
 }
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
 const revealItems = document.querySelectorAll("[data-reveal]");
 
 if (reduceMotion || !("IntersectionObserver" in window)) {

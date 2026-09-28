@@ -116,148 +116,51 @@ window.FOLIO_PROJECTS = [
       "style": "compact"
     },
     "hero": {
-      "src": "assets/yitaojin-international/01_卡片标题黑色-v7.web.avif",
-      "width": 1672,
-      "height": 941,
-      "alt": "广发易淘金国际版：01 项目封面",
+      "src": "assets/yitaojin-international/full-20260928-01.lossless.webp",
+      "width": 1440,
+      "height": 4096,
+      "alt": "易淘金国际版完整设计展示（第 1 / 6 部分）",
       "mode": "document"
     },
-    "description": "围绕产品购买、订单追踪与持仓查看，梳理连续清晰的理财体验。",
+    "description": "易淘金国际版：行情、交易、理财与账户服务的完整界面设计展示。",
     "gallery": [
       {
-        "src": "assets/yitaojin-international/02_项目概览-bold-v1.lossless.webp",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：02 项目概览",
+        "src": "assets/yitaojin-international/full-20260928-02.lossless.webp",
+        "width": 1440,
+        "height": 4096,
+        "alt": "易淘金国际版完整设计展示（第 2 / 6 部分）",
         "layout": "full"
       },
       {
-        "src": "assets/yitaojin-international/03_设计切入点-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：03 设计切入点",
+        "src": "assets/yitaojin-international/full-20260928-03.lossless.webp",
+        "width": 1440,
+        "height": 4096,
+        "alt": "易淘金国际版完整设计展示（第 3 / 6 部分）",
         "layout": "full"
       },
       {
-        "src": "assets/yitaojin-international/04_理财任务路径-bold-v1.lossless.webp",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：04 理财任务路径",
+        "src": "assets/yitaojin-international/full-20260928-04.lossless.webp",
+        "width": 1440,
+        "height": 4096,
+        "alt": "易淘金国际版完整设计展示（第 4 / 6 部分）",
         "layout": "full"
       },
       {
-        "src": "assets/yitaojin-international/05_视觉与组件-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：05 视觉与组件",
+        "src": "assets/yitaojin-international/full-20260928-05.lossless.webp",
+        "width": 1440,
+        "height": 4096,
+        "alt": "易淘金国际版完整设计展示（第 5 / 6 部分）",
         "layout": "full"
       },
       {
-        "src": "assets/yitaojin-international/06_首页与理财入口-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：06 首页与理财入口",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/07_列表与产品详情-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：07 列表与产品详情",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/08_购买金额与确认-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：08 购买金额与确认",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/09_输入边界状态-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：09 输入边界状态",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/10_提交结果与订单-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：10 提交结果与订单",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/11_持仓与交易记录-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：11 持仓与交易记录",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/12_资产与状态关系-bold-v1.lossless.webp",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：12 资产与状态关系",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/13_跨境理财服务-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：13 跨境理财服务",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/14_开户与办理状态-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：14 开户与办理状态",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/15_资金与服务引导-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：15 资金与服务引导",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/16_风险与信息校验-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：16 风险与信息校验",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/17_空状态体系-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：17 空状态体系",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/18_工具与活动引导-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：18 工具与活动引导",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/19_全局界面阵列-bold-v1.web.avif",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：19 全局界面阵列",
-        "layout": "full"
-      },
-      {
-        "src": "assets/yitaojin-international/20_设计总结-bold-v1.lossless.webp",
-        "width": 1920,
-        "height": 1080,
-        "alt": "广发易淘金国际版：20 设计总结",
+        "src": "assets/yitaojin-international/full-20260928-06.lossless.webp",
+        "width": 1440,
+        "height": 3840,
+        "alt": "易淘金国际版完整设计展示（第 6 / 6 部分）",
         "layout": "full"
       }
-    ]
+    ],
+    "contentMode": "image"
   },
   {
     "id": "neon-companion",
@@ -401,6 +304,7 @@ window.FOLIO_PROJECTS = [
   },
   {
     "id": "signal-studies",
+    "hidden": true,
     "card": {
       "category": "角色设计",
       "order": 7,
@@ -558,20 +462,56 @@ window.FOLIO_PROJECTS = [
       "style": "home-scale"
     },
     "hero": {
-      "src": "assets/t-home-app/full-case-study.png",
+      "src": "assets/t-home-app/full-case-study.optimized-20260928-01.lossless.webp",
       "width": 1600,
-      "height": 24050,
+      "height": 4096,
       "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计",
       "mode": "document"
     },
     "description": "家庭设备，生活空间",
-    "gallery": []
+    "gallery": [
+      {
+        "src": "assets/t-home-app/full-case-study.optimized-20260928-02.lossless.webp",
+        "width": 1600,
+        "height": 4096,
+        "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 1）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/t-home-app/full-case-study.optimized-20260928-03.lossless.webp",
+        "width": 1600,
+        "height": 4096,
+        "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 2）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/t-home-app/full-case-study.optimized-20260928-04.lossless.webp",
+        "width": 1600,
+        "height": 4096,
+        "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 3）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/t-home-app/full-case-study.optimized-20260928-05.lossless.webp",
+        "width": 1600,
+        "height": 4096,
+        "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 4）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/t-home-app/full-case-study.optimized-20260928-06.lossless.webp",
+        "width": 1600,
+        "height": 3570,
+        "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 5）",
+        "layout": "full"
+      }
+    ]
   },
   {
     "id": "oa-comics",
     "card": {
       "category": "运营与插画",
-      "order": 3,
+      "order": 11,
       "meta": "办公日常 / 场景插画",
       "summary": "办公日常 · 手绘插画",
       "cover": {
@@ -655,6 +595,7 @@ window.FOLIO_PROJECTS = [
   },
   {
     "id": "gf-smart-data",
+    "hidden": true,
     "card": {
       "category": "UI 界面",
       "order": 4,
@@ -684,14 +625,64 @@ window.FOLIO_PROJECTS = [
       "style": "compact"
     },
     "hero": {
-      "src": "assets/gf-smart-data/full-case-study-corrected.png",
+      "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-01.lossless.webp",
       "width": 2293,
-      "height": 32768,
+      "height": 4096,
       "alt": "广发智慧数完整项目展示",
       "mode": "document"
     },
     "description": "金融数据 · 行业研究平台",
-    "gallery": []
+    "gallery": [
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-02.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 1）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-03.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 2）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-04.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 3）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-05.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 4）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-06.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 5）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-07.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 6）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/gf-smart-data/full-case-study-corrected.optimized-20260928-08.lossless.webp",
+        "width": 2293,
+        "height": 4096,
+        "alt": "广发智慧数完整项目展示（续 7）",
+        "layout": "full"
+      }
+    ]
   },
   {
     "id": "campaign-2025",
@@ -795,7 +786,7 @@ window.FOLIO_PROJECTS = [
     "card": {
       "title": "JYQuants",
       "category": "UI 界面",
-      "order": 10,
+      "order": -1,
       "summary": "量化交易 · 网站体验",
       "meta": "金融科技 / Web 设计",
       "preserveCase": true,
