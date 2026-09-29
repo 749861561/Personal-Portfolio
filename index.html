@@ -9,9 +9,9 @@
     <link rel="preload" as="image" href="assets/walrus/hero.avif" type="image/avif" media="(min-width: 768px)" />
     <link rel="preload" as="image" href="assets/walrus/hero-mobile-extended.webp" type="image/webp" media="(max-width: 767px)" />
     <link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=20260928-release" />
+    <link rel="stylesheet" href="styles.css?v=20260929-mobile-hero-height" />
     <link rel="stylesheet" href="avatar.css?v=20260928-release" />
-    <script src="projects.js?v=20260928-release" defer></script>
+    <script src="projects.js?v=20260929-ctl-avif" defer></script>
     <script src="featured.js?v=20260928-release" defer></script>
     <script src="project-cards.js?v=20260928-release" defer></script>
     <script src="avatar.js?v=20260928-release" defer></script>
@@ -156,16 +156,29 @@
             <div class="experience-viewport" id="experience-viewport" tabindex="0" role="region" aria-label="工作经历，可上下滚动浏览" data-experience-viewport>
           <ol class="experience-flow" aria-label="按时间从新到旧排列的工作经历">
             <li class="experience-entry">
+              <article aria-labelledby="experience-songguo">
+                <time class="experience-date" datetime="2026-03">2026.03 至今</time>
+                <h3 id="experience-songguo" lang="zh-CN">深圳松果科技有限公司</h3>
+                <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-songguo-content">查看更多 <span aria-hidden="true">＋</span></button>
+                <div class="experience-content" id="experience-songguo-content">
+                  <ul class="experience-details">
+                    <li><strong>官网设计：</strong>负责公司官网的视觉风格、页面布局及界面设计，围绕品牌定位与业务内容组织信息，突出产品与服务优势，保持页面视觉风格的一致性。</li>
+                    <li><strong>CRM 后台设计：</strong>负责 CRM 后台系统的 UI 设计，结合业务场景优化页面布局、信息层级及功能呈现，注重表单、列表等复杂页面的可读性与操作便捷性。</li>
+                    <li><strong>Logo 设计：</strong>负责品牌 Logo 的创意构思与视觉设计，通过图形、字体及色彩搭配传达品牌理念，兼顾标志的辨识度与不同场景下的应用需求。</li>
+                  </ul>
+                </div>
+              </article>
+            </li>
+            <li class="experience-entry">
               <article aria-labelledby="experience-identity">
-                <time class="experience-date" datetime="2024-02">2024.02 至今</time>
+                <time class="experience-date" datetime="2024-02">2024.02 至 2026.02</time>
                 <h3 id="experience-identity" lang="zh-CN">深圳诚迈创通科技有限公司</h3>
                 <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-identity-content">查看更多 <span aria-hidden="true">＋</span></button>
                 <div class="experience-content" id="experience-identity-content">
-                <p class="experience-role">设计职责：UI 界面 / 运营视觉</p>
                 <ul class="experience-details">
-                  <li><strong>产品界面：</strong>与交互设计师协作，负责 TCL App 迭代及设备控制页面的视觉设计，围绕功能层级、信息布局与控件状态细化方案，保持移动端与设备端的视觉一致性。</li>
-                  <li><strong>设备场景：</strong>参与耳机、商用空调、海外冰箱等产品的控制界面设计，覆盖 10 寸、7 寸、3.5 寸操作屏，结合不同屏幕尺寸梳理内容呈现与操作重点。</li>
-                  <li><strong>运营视觉：</strong>完成企业内部宣传海报，将宣传内容转化为清晰的视觉层级，通过版式、字体与色彩突出主题和关键信息，兼顾画面表现与阅读效率。</li>
+                  <li><strong>移动端：</strong>负责 TCL APP 迭代更新和视觉呈现，确保单品<strong>风格统一突出用户体验</strong>，增加用户使用率，与交互设计共同完成单品设计，提高用户交互体验与视觉效果。</li>
+                  <li><strong>屏端设计：设备端设计</strong>多为 B 端居多，为企业设计<strong>设备操作系统</strong>，确保系统的简单性，与可用性，使操作人员更易上手。</li>
+                  <li><strong>工作成果：成功落地耳机/商用空调/海外冰箱</strong>等单品。以及<strong>10寸/7寸/3.5寸操作屏</strong>。</li>
                 </ul>
                               </div>
               </article>
@@ -176,11 +189,10 @@
                 <h3 id="experience-motion" lang="zh-CN">博彦科技股份有限公司</h3>
                 <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-motion-content">查看更多 <span aria-hidden="true">＋</span></button>
                 <div class="experience-content" id="experience-motion-content">
-                <p class="experience-role">设计职责：金融 UI / 活动视觉 / 插画</p>
                 <ul class="experience-details">
-                  <li><strong>运营与插画：</strong>独立完成功能页插画、活动视觉与休市日历设计，结合金融业务与节日主题，通过构图、色彩和图形突出活动权益与关键信息。</li>
-                  <li><strong>产品界面：</strong>负责广发易淘金国际版 App 迭代及开户系统的界面视觉，细化布局、图标与操作状态，梳理金融信息层级，让业务内容更清晰、页面更易读。</li>
-                  <li><strong>设计规范：</strong>协助建立 UI 规范，梳理字体、色彩、控件与状态样式，统一组件和页面表现，为后续迭代提供可复用的视觉参考。</li>
+                  <li>负责广发易淘金（国际版）相关设计，其中包括 APP 迭代更新，以及易淘金国际版开户系统（B 端）根据需求文档进行具体效果图设计，视觉设计（包括主次界面风格化，版面布局细节处理，ICON 绘制，等）</li>
+                  <li>结合用户体验，优化完善设计，完成新 APP 迭代更新需求，协助建立 UI 设计规范。</li>
+                  <li>独立完成功能页插画部分设计，完成活动运营设计以及休市日历设计。</li>
                 </ul>
                               </div>
               </article>
@@ -191,11 +203,10 @@
                 <h3 id="experience-digital" lang="zh-CN">深圳蓝凌软件股份有限公司</h3>
                 <button class="experience-expand" type="button" aria-expanded="false" aria-controls="experience-digital-content">查看更多 <span aria-hidden="true">＋</span></button>
                 <div class="experience-content" id="experience-digital-content">
-                <p class="experience-role">设计职责：企业服务 UI / 宣传视觉</p>
                 <ul class="experience-details">
-                  <li><strong>界面设计：</strong>负责蓝凌专属钉钉的门户与小程序界面，将业务需求转化为页面布局与视觉方案，梳理功能入口和信息层级，让企业办公内容更清晰、操作重点更突出。</li>
-                  <li><strong>宣传视觉：</strong>完成宣传横幅与产品海报，围绕产品定位探索构图、字体与色彩搭配，突出产品特点和核心信息，保持宣传物料的视觉一致性。</li>
-                  <li><strong>组件协作：</strong>参与需求讨论与自定义组件的视觉完善，细化布局、样式和信息呈现，协调组件与整体页面的关系，支持设计方案整理与交付。</li>
+                  <li>负责蓝凌专属钉钉项目界面设计工作，主要包括门户界面，小程序及宣传 BANNER 产品海报等视觉工作：根据产品定位，用户审美倾向与需求，构思 UI 创意。</li>
+                  <li>参与项目需求讨论，在沟通中发现和理解用户需求，并解决问题和优化方案推动项目的顺利进行，提升产品的用户体验。</li>
+                  <li>对新组件的设计：配合相关人员对自定义组件的完善设计。</li>
                 </ul>
                               </div>
               </article>
@@ -205,11 +216,12 @@
             <div class="experience-controls" aria-label="工作经历播放控制">
               <span class="experience-count" aria-hidden="true" data-experience-count>01</span>
               <div class="experience-progress" aria-label="选择工作经历">
-                <button type="button" class="experience-segment" aria-label="查看深圳诚迈创通科技有限公司的经历" aria-controls="experience-viewport" aria-current="step" data-experience-step="0"><span><i></i></span></button>
-                <button type="button" class="experience-segment" aria-label="查看博彦科技股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="1"><span><i></i></span></button>
-                <button type="button" class="experience-segment" aria-label="查看深圳蓝凌软件股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="2"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看深圳松果科技有限公司的经历" aria-controls="experience-viewport" aria-current="step" data-experience-step="0"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看深圳诚迈创通科技有限公司的经历" aria-controls="experience-viewport" data-experience-step="1"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看博彦科技股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="2"><span><i></i></span></button>
+                <button type="button" class="experience-segment" aria-label="查看深圳蓝凌软件股份有限公司的经历" aria-controls="experience-viewport" data-experience-step="3"><span><i></i></span></button>
               </div>
-              <span class="experience-total" aria-hidden="true">03</span>
+              <span class="experience-total" aria-hidden="true">04</span>
               <button type="button" class="experience-toggle" data-experience-toggle aria-label="暂停自动播放" aria-controls="experience-viewport"><span class="experience-playback-icon" aria-hidden="true"></span></button>
             </div>
           </div>

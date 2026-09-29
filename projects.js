@@ -38,14 +38,36 @@ window.FOLIO_PROJECTS = [
       "style": "compact"
     },
     "hero": {
-      "src": "assets/ctl-10-inch/full-case-study-20260925.web.avif",
-      "width": 3150,
-      "height": 32768,
+      "src": "assets/ctl-10-inch/full-case-study-20260929-01.avif",
+      "width": 1440,
+      "height": 4096,
       "alt": "十寸中控屏15页完整案例：暖通设备集中控制、界面设计与核心界面总览",
       "mode": "document"
     },
     "description": "智能硬件，生活空间",
-    "gallery": []
+    "gallery": [
+      {
+        "src": "assets/ctl-10-inch/full-case-study-20260929-02.avif",
+        "width": 1440,
+        "height": 4096,
+        "alt": "十寸中控屏15页完整案例：暖通设备集中控制、界面设计与核心界面总览（续 1）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/ctl-10-inch/full-case-study-20260929-03.avif",
+        "width": 1440,
+        "height": 4096,
+        "alt": "十寸中控屏15页完整案例：暖通设备集中控制、界面设计与核心界面总览（续 2）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/ctl-10-inch/full-case-study-20260929-04.avif",
+        "width": 1440,
+        "height": 2697,
+        "alt": "十寸中控屏15页完整案例：暖通设备集中控制、界面设计与核心界面总览（续 3）",
+        "layout": "full"
+      }
+    ]
   },
   {
     "id": "southbank-signals",
@@ -462,7 +484,7 @@ window.FOLIO_PROJECTS = [
       "style": "home-scale"
     },
     "hero": {
-      "src": "assets/t-home-app/full-case-study.optimized-20260928-01.lossless.webp",
+      "src": "assets/t-home-app/full-case-study-20260929-01.avif",
       "width": 1600,
       "height": 4096,
       "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计",
@@ -471,35 +493,35 @@ window.FOLIO_PROJECTS = [
     "description": "家庭设备，生活空间",
     "gallery": [
       {
-        "src": "assets/t-home-app/full-case-study.optimized-20260928-02.lossless.webp",
+        "src": "assets/t-home-app/full-case-study-20260929-02.avif",
         "width": 1600,
         "height": 4096,
         "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 1）",
         "layout": "full"
       },
       {
-        "src": "assets/t-home-app/full-case-study.optimized-20260928-03.lossless.webp",
+        "src": "assets/t-home-app/full-case-study-20260929-03.avif",
         "width": 1600,
         "height": 4096,
         "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 2）",
         "layout": "full"
       },
       {
-        "src": "assets/t-home-app/full-case-study.optimized-20260928-04.lossless.webp",
+        "src": "assets/t-home-app/full-case-study-20260929-04.avif",
         "width": 1600,
         "height": 4096,
         "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 3）",
         "layout": "full"
       },
       {
-        "src": "assets/t-home-app/full-case-study.optimized-20260928-05.lossless.webp",
+        "src": "assets/t-home-app/full-case-study-20260929-05.avif",
         "width": 1600,
         "height": 4096,
         "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 4）",
         "layout": "full"
       },
       {
-        "src": "assets/t-home-app/full-case-study.optimized-20260928-06.lossless.webp",
+        "src": "assets/t-home-app/full-case-study-20260929-06.avif",
         "width": 1600,
         "height": 3570,
         "alt": "T home APP 完整项目展示：家庭设备、生活空间、设计流程、视觉规范与界面设计（续 5）",
@@ -810,13 +832,49 @@ window.FOLIO_PROJECTS = [
       "style": "compact"
     },
     "hero": {
-      "src": "assets/jyquants/full-case-study-20260927.web.avif",
-      "width": 2193,
-      "height": 32768,
+      "src": "assets/jyquants/full-case-study-20260929-01.avif",
+      "width": 1600,
+      "height": 4096,
       "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结",
       "mode": "document"
     },
     "description": "量化交易网站的 UX / UI 设计，包含视觉规范、网站首页、产品与文章页面及账户入口。",
-    "gallery": []
+    "gallery": [
+      {
+        "src": "assets/jyquants/full-case-study-20260929-02.avif",
+        "width": 1600,
+        "height": 4096,
+        "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结（续 1）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/jyquants/full-case-study-20260929-03.avif",
+        "width": 1600,
+        "height": 4096,
+        "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结（续 2）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/jyquants/full-case-study-20260929-04.avif",
+        "width": 1600,
+        "height": 4096,
+        "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结（续 3）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/jyquants/full-case-study-20260929-05.avif",
+        "width": 1600,
+        "height": 4096,
+        "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结（续 4）",
+        "layout": "full"
+      },
+      {
+        "src": "assets/jyquants/full-case-study-20260929-06.avif",
+        "width": 1600,
+        "height": 3438,
+        "alt": "JYQuants 量化交易网站完整设计案例：项目介绍、视觉规范、网站首页、产品与文章页面、账户入口及设计总结（续 5）",
+        "layout": "full"
+      }
+    ]
   }
 ];

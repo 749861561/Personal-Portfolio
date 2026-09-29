@@ -2050,11 +2050,22 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
   .experience-entry article > .experience-date { order: -1; }
 }
 @media (max-width: 767px) {
-  .home-page .hero { min-height: calc(17rem + 132vw - 1.5rem); }
+  .home-page .hero-world {
+    --mobile-hero-height: min(100svh, calc(17rem + 132vw - 1.5rem - 100px));
+  }
+  .home-page .hero {
+    height: auto;
+    min-height: var(--mobile-hero-height);
+    max-height: none;
+  }
+  .home-page .hero-world-visual {
+    bottom: auto;
+    height: var(--mobile-hero-height);
+  }
   .js .home-page .hero-content[data-reveal] { transform: none; }
   .home-page .hero-tags {
     position: absolute;
-    bottom: 2rem;
+    bottom: calc(2rem + 30px);
     left: 50%;
     width: calc(100% - 2rem);
     margin-top: 0;
@@ -2104,8 +2115,6 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
   .home-page .work-label,
   .home-page .work-glass-copy p,
   .home-page .work-glass-copy a,
-  .home-page .work-profile-facts dd,
-  .home-page .work-profile-facts .work-profile-school,
   .home-page .work-profile-facts dt,
   .home-page .partners-copy > p,
   .home-page .partner-logo-card,
@@ -2131,7 +2140,8 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
   .home-page .media-fallback {
     font-size: 14px;
   }
-  .home-page .work-profile-facts dd { white-space: normal; }
+  .home-page .work-profile-facts dd,
+  .home-page .work-profile-facts .work-profile-school { font-size: 16px; white-space: normal; }
 }
 
 /* Mobile review: clearer facts and a shorter skills scene. */
