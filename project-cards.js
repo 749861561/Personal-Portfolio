@@ -1,6 +1,35 @@
 // 首页与全部作品共用作品卡片数据；详情内容仍由 projects.js 维护。
 (() => {
   const projects = (window.FOLIO_PROJECTS || []).filter(project => !project.hidden);
+  const detailHref = id => {
+    const from = `${location.pathname}${location.search}${location.hash}`;
+    return `project.html?${new URLSearchParams({ project: id, from })}`;
+  };
+  const savePosition = () => {
+    history.replaceState({ ...history.state, folioListingPosition: {
+      x: window.scrollX,
+      y: window.scrollY,
+      galleryX: document.getElementById('selected-gallery')?.scrollLeft || 0
+    } }, '');
+  };
+  // Keep the entry URL current even when the visitor navigates between homepage sections.
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const target = new URL(link.href, location.href);
+    if (target.origin !== location.origin || target.pathname !== new URL('project.html', location.href).pathname) return;
+    link.href = detailHref(target.searchParams.get('project'));
+    savePosition();
+  });
+  window.addEventListener('pagehide', savePosition);
+  window.addEventListener('pageshow', () => {
+    const position = history.state?.folioListingPosition;
+    if (!position) return;
+    requestAnimationFrame(() => {
+      window.scrollTo({ left: position.x, top: position.y, behavior: 'instant' });
+      document.getElementById('selected-gallery')?.scrollTo({ left: position.galleryX, behavior: 'instant' });
+    });
+  });
   const language = text => /[\u3400-\u9fff]/u.test(text) ? 'zh-CN' : 'en';
   const element = (tag, className, text) => {
     const node = document.createElement(tag);
@@ -20,7 +49,7 @@
       cover: card.cover || project.hero,
       order: card.order ?? Number.MAX_SAFE_INTEGER,
       preserveCase: Boolean(card.preserveCase),
-      href: `project.html?project=${encodeURIComponent(project.id)}`
+      href: detailHref(project.id)
     };
   });
   const byId = new Map(cards.map(card => [card.id, card]));

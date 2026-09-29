@@ -5,10 +5,13 @@
   const input = document.querySelector('#work-search');
   const status = document.querySelector('#result-status');
   const empty = document.querySelector('.empty-state');
-  let category = '全部';
+  const savedFilters = history.state?.folioWorkFilters;
+  let category = savedFilters?.category || '全部';
+  if (savedFilters) input.value = savedFilters.query || '';
   const ordered = [...catalog].sort((a, b) => a.order - b.order);
   const counts = new Map([['全部', ordered.length]]);
   ordered.forEach(card => counts.set(card.category, (counts.get(card.category) || 0) + 1));
+  if (!counts.has(category)) category = '全部';
   const filters = [...counts].map(([name, count]) => {
     const button = element('button', 'filter-button', name);
     button.type = 'button';
@@ -36,6 +39,7 @@
   });
   grid.replaceChildren(...cards);
   function update() {
+    history.replaceState({ ...history.state, folioWorkFilters: { category, query: input.value } }, '');
     const query = input.value.trim().toLocaleLowerCase();
     let count = 0;
     cards.forEach(card => {

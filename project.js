@@ -217,11 +217,32 @@
     document.getElementById("next-project-title").textContent = next.name;
   }
   const returnLinks = document.querySelectorAll('a[href="work.html"]');
-  returnLinks.forEach((link) => {
-    link.href = project.returnTo || `work.html#${encodeURIComponent(project.id)}`;
-    if (project.returnTo && link.classList.contains("viewer-action")) {
-      link.setAttribute("aria-label", "关闭作品，返回首页精选作品");
+  const listingURL = value => {
+    if (!value) return null;
+    try {
+      const url = new URL(value, location.href);
+      const allowedPaths = ['.', 'index.html', 'work.html'].map(path => new URL(path, location.href).pathname);
+      return url.origin === location.origin && allowedPaths.includes(url.pathname) ? url : null;
+    } catch {
+      return null;
     }
+  };
+  const referrer = listingURL(document.referrer);
+  const entry = listingURL(new URLSearchParams(location.search).get('from')) || referrer;
+  const destination = entry || new URL(`work.html#${encodeURIComponent(project.id)}`, location.href);
+  const canGoBack = referrer && entry && history.length > 1
+    && referrer.pathname === entry.pathname && referrer.search === entry.search;
+  returnLinks.forEach((link) => {
+    link.href = `${destination.pathname}${destination.search}${destination.hash}`;
+    if (link.classList.contains('viewer-action')) {
+      link.setAttribute('aria-label', entry ? '关闭作品，返回进入前的页面' : '关闭作品，返回全部作品');
+    }
+    link.addEventListener('click', event => {
+      // A detail-page anchor can create another history entry; use the explicit destination then.
+      if (!canGoBack || location.hash || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      history.back();
+    });
   });
   root.hidden = false;
 
